@@ -19,7 +19,7 @@ locale                   : "ko-KR" #"en-US"
 title                    : "bell Devlog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "bell
+name                     : "bell"
 description              : "An amazing website."
 url                      : "https://bell9489.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
