@@ -12,27 +12,17 @@ main:
 # sidebar navigation (categories)
 
 categories:
-  - title: Javascript
-    children:
-      - title: "Javascript"
-        url: /categories/Javascript/
+  - title: "Javascript"
+    url: /categories/Javascript/
 
-  - title: React
-    children:
-      - title: "React"
-        url: /categories/React/
+  - title: "React"
+    url: /categories/React/
 
-  - title: Vue
-    children:
-      - title: "Vue"
-        url: /categories/Vue/
+  - title: "Vue"
+    url: /categories/Vue/
 
-  - title: Typescript
-    children:
-      - title: "Typescript"
-        url: /categories/Typescript/
+  - title: "Typescript"
+    url: /categories/Typescript/
 
-  - title: Node.js
-    children:
-      - title: "Node.js"
-        url: /categories/Node.js/
+  - title: "Node.js"
+    url: /categories/Node.js/

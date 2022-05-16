@@ -1,47 +1,37 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
-  {% if page.sidebar.title %}
-  <h3 class="nav__title" style="padding-left: 0">{{ page.sidebar.title }}</h3>
-  {% endif %}
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{
-    site.data.ui - text[site.locale].menu_label | default: "Toggle Menu"
-  }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-    <li>
-      <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-      <span class="nav__sub-title">WEB</span>
-      <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-      <ul>
-        <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-        <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
-        {% for category in site.categories %} {% if category[0] == "Javascript"
-        %}
-        <li><a href="/categories/Javascript" class="">Javascript</a></li>
-        {% endif %} {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %} {% if category[0] == "React" %}
-        <li><a href="/categories/React" class="">React</a></li>
-        {% endif %} {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %} {% if category[0] == "Vue" %}
-        <li><a href="/categories/Vue" class="">Vue</a></li>
-        {% endif %} {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %} {% if category[0] == "Typescript"
-        %}
-        <li><a href="/categories/Typescript" class="">Typescript</a></li>
-        {% endif %} {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %} {% if category[0] == "Node.js" %}
-        <li><a href="/categories/Node.js" class="">Node.js</a></li>
-        {% endif %} {% endfor %}
-      </ul>
-    </li>
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <ul class="nav__items">
+    <!-- <li>
+      <span class="nav__total">🌴 Total Posts: {{site.posts | size}}</span>
+    </li> -->
+    
+    {% for nav in navigation %}
+      <li>
+        {% if nav.url %}
+              <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+        {% else %}
+          <!-- title -->
+              <span class="nav__sub-title">{{ nav.title }}</span>
+              <hr>
+        {% endif %}
+
+        {% if nav.children != null %}
+        <ul>
+          {% for child in nav.children %}
+            <!-- sub-title -->
+            {% for category in site.categories %}
+              {% if category[0] == child.title %}
+                <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ category | last | size }})</a></li>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
   </ul>
 </nav>
