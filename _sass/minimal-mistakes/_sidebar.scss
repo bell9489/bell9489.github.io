@@ -179,6 +179,7 @@
 
 .author__bio {
   margin: 0;
+  margin-bottom: 40px !important;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -216,7 +217,7 @@
 
     &:before {
       @supports (pointer-events: none) {
-        content: '';
+        content: "";
         position: fixed;
         top: 0;
         left: 0;
@@ -350,4 +351,3 @@
     margin-right: initial;
   }
 }
-
