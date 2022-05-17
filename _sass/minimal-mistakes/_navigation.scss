@@ -439,7 +439,7 @@
 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.25rem;
+  // font-size: 1.25rem;
 
   a {
     color: inherit;
@@ -495,8 +495,12 @@
   font-family: $sans-serif-narrow;
   font-size: $type-size-6;
   font-weight: bold;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+}
+
+.nav__items {
+  margin-top: 0.5rem;
 }
 
 /*
@@ -568,6 +572,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }
