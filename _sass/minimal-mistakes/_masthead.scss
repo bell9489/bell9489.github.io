@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  // border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -15,7 +15,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 1.5em 1em 1em 1em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24,6 +24,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
+    font-size: 18px;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
