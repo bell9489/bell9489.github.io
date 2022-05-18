@@ -52,6 +52,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+  a {
+    color: #4871e4 !important;
+  }
+
   a[rel="permalink"]::before {
     content: "";
     position: absolute;
