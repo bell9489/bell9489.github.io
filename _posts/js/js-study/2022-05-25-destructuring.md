@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "destructuring 문법으로 변수를 쉽게 만들어 보자"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # 자료형 변수를 뽑는 destructuring

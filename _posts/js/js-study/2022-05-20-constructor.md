@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "자바스크립트 속 상속 기능들"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # 1. instance constructor

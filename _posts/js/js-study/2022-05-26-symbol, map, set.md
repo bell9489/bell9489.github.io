@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "symbol / map / set"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # 잘 쓰이지는 않지만 알아두면 좋은 자료형들.

@@ -1,9 +1,10 @@
 ---
 title: "javascript"
-layout: archive
-permalink: categories/js-clone
+layout: category
+permalink: /categories/js-clone
 author_profile: true
 sidebar_main: true
+taxonomy: js-clone
 ---
 
 {% assign posts = site.categories.js %}

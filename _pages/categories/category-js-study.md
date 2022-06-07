@@ -1,9 +1,10 @@
 ---
 title: "javascript"
-layout: archive
-permalink: categories/js-study
+layout: category
+permalink: /categories/js-study
 author_profile: true
 sidebar_main: true
+taxonomy: js-study
 ---
 
 {% assign posts = site.categories.js %}

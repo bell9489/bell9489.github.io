@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "arrow function"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # arrow function

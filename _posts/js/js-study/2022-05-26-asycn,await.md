@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "async / await"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # Promise대신 ES8문법인 async, await을 이용해 Promise와 then을 대체해 보자.

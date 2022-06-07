@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "apply / call"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # apply / call

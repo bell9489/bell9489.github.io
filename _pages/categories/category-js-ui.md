@@ -1,9 +1,10 @@
 ---
 title: "javascript"
-layout: archive
-permalink: categories/js-ui
+layout: category
+permalink: /categories/js-ui
 author_profile: true
 sidebar_main: true
+taxonomy: js-ui
 ---
 
 {% assign posts = site.categories.js %}

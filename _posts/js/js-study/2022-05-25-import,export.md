@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "import / export를 이용한 파일간 모듈식 개발"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # 파일을 나눠서 첨부하는 import / export

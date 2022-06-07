@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "자바스크립트 속 상속 기능들 ES5/ES6"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # 상속기능을 구현한 ES5 방법

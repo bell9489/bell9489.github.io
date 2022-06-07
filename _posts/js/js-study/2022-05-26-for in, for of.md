@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "반복문 정리"
+categories: [js-study]
+tag: [js-study]
 ---
 
 # for in, for of 반복문 / enumerable, iterable 속성
