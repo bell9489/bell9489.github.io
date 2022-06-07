@@ -20,6 +20,7 @@
 
 .archive__item {
   position: relative;
+  margin-bottom: 1em;
 
   a {
     position: relative;
@@ -47,13 +48,21 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
 
+  h2 {
+    margin-top: 0 !important;
+  }
+
   a {
-    color: #4871e4 !important;
+    color: #869bf8 !important;
+  }
+
+  p {
+    margin-bottom: 0.5em !important;
   }
 
   a[rel="permalink"]::before {
