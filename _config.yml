@@ -102,29 +102,29 @@ analytics:
 # Site Author
 author:
   name: "bell"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bell.svg"
   bio: "Hello **Hi** "
   location: # "Somewhere"
   email:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+  # links:
+  #   - label: "Email"
+  #     icon: "fas fa-fw fa-envelope-square"
+  #     # url: "mailto:your.name@email.com"
+  #   - label: "Website"
+  #     icon: "fas fa-fw fa-link"
+  #     # url: "https://your-website.com"
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     # url: "https://twitter.com/"
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     # url: "https://facebook.com/"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     # url: "https://github.com/"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -219,7 +219,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -227,7 +227,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 # Archives
@@ -243,9 +243,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -275,10 +275,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
       comments: # true
       share: # true
       related: true
-      future: true
-      sidebar_main: true
       sidebar:
         nav: "categories"
