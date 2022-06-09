@@ -24,7 +24,7 @@ last_modified_at: 2022-06-09
 > - 삭제 버튼을 누르면 삭제되는 기능
 
 <center>
-  <img src="./img/2022-06-09-todo-simple1.jpg" width="500"/>
+  <img src="https://user-images.githubusercontent.com/93906032/172792344-0b64558b-bcb2-4452-9665-72f75f392680.jpg" width="500"/>
 </center> <br />
 
 ## 개발할 페이지와 컴포넌트
@@ -37,7 +37,7 @@ last_modified_at: 2022-06-09
 <center><b>디렉토리 구조</b></center><br />
 
 <center>
-  <img src="./img/2022-06-09-todo-simple2.jpg" width="300"/>
+  <img src="https://user-images.githubusercontent.com/93906032/172792535-921fb2a9-1b4a-4afd-a6f6-44a910784ce1.jpg" width="300"/>
 </center> <br />
 
 ## 구현할 기능
@@ -134,7 +134,7 @@ export default ToDoBoard;
 <center><b>지금까지의 결과</b></center>
 
 <center>
-  <img src="./img/2022-06-09-todo-simple3.jpg" width="400"/>
+  <img src="https://user-images.githubusercontent.com/93906032/172792621-b8aed8a4-0630-4370-ab03-3de187c0639a.jpg" width="400"/>
 </center> <br />
 
 ### ToDoBoard와 ToDoItem에 props 사용
