@@ -5,8 +5,9 @@
 /*
    Typography
    ========================================================================== */
+@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");
 
-$doc-font-size: 16 !default;
+$doc-font-size: 14 !default;
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
@@ -15,11 +16,9 @@ $indent-var: 1.3em !default;
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
 
-/* 2022.05.16 font change */
-$sans-serif: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-  "Montserrat", "Pretendard", "Merriweather", sans-serif !default;
-$monospace: "Fira Mono", "Pretendard", Monaco, Consolas, "Lucida Console",
-  monospace !default;
+/* 2022.06 font change */
+$sans-serif: -apple-system, BlinkMacSystemFont, "SUIT", "Apple SD Gothic Neo", "Montserrat", "Pretendard", "Merriweather", sans-serif !default;
+$monospace: "SUIT", "Fira Mono", "Pretendard", Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;

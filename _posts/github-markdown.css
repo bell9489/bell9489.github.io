@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "SUIT", "AppleSDGothicNeo", "Noto Sans KR", sans-serif;
+  src: url("//cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css");
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #24292e;
+  font-family: "SUIT";
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body mark {
+  background-color: #d9e0ff;
+}
