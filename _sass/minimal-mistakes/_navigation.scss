@@ -84,13 +84,14 @@
       border-radius: 0;
 
       &:hover {
-        color: $link-color-hover;
+        color: #869BF8;
+      };
       }
 
       &.current,
       &.current.disabled {
         color: #fff;
-        background: $primary-color;
+        background: #869BF8;
       }
 
       &.disabled {
@@ -240,10 +241,13 @@
       &:before {
         content: "";
         position: absolute;
+        z-index: -10;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: $primary-color;
+        top: 5px;
+        height: 100%;
+        background: #b3c1ff;
+        border-radius: 100%;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
