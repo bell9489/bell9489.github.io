@@ -28,8 +28,6 @@ last_modified_at: 2022-06-13
 > 2.  함수 안에 return ( <b>원하는 html</b> )
 > 3.  필요한 곳에 <b><함수명></함수명></b> 사용
 
-<br />
-
 ### 주의점
 
 - component를 작명할 때 시작은 영어대문자
@@ -42,8 +40,6 @@ last_modified_at: 2022-06-13
 
 ### component로 만들면 좋은 것들
 
-<br />
-
 - 반복 횟수가 잦은 것
 - 내용이 자주 변경 될 것 같은 html 부분만 component로 만들기
 - 다른 페이지를 만들 때
@@ -53,8 +49,6 @@ last_modified_at: 2022-06-13
 <br />
 
 ### component 단점
-
-<br />
 
 - component 가 많으면 관리가 힘들다
 - 한 function 안에 있는 변수를 다른 function에서 맘대로 사용이 불가해 props를 사용해야하는데 번거롭다.
