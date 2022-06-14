@@ -1,6 +1,10 @@
-/* ==========================================================================
-   BASE ELEMENTS
-   ========================================================================== */
+/**
+ * /* ==========================================================================
+ *    BASE ELEMENTS
+ *    ==========================================================================
+ *
+ * @format
+ */
 
 html {
   /* sticky footer fix */
@@ -107,11 +111,10 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-style: italic;
-  border-left: 0.25em solid $primary-color;
+  margin: 1.5em 1em 1.5em 0em;
+  padding: 0.7em 1em 0.7em 1.5em;
+  background-color: #e9edff;
+  border-left: 0.25em solid #869bf8;
 
   cite {
     font-style: italic;

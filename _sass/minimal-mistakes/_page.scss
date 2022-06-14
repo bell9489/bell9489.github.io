@@ -1,6 +1,10 @@
-/* ==========================================================================
-   SINGLE PAGE/POST
-   ========================================================================== */
+/**
+ * /* ==========================================================================
+ *    SINGLE PAGE/POST
+ *    ==========================================================================
+ *
+ * @format
+ */
 
 #main {
   @include clearfix;
@@ -94,12 +98,18 @@ body {
 }
 
 .page__content {
+  font-size: 0.9em;
   // margin: 2em 0;
 
   h2 {
     margin-top: 1em;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid #ddd;
+    font-size: 1.45em;
+    // border-bottom: 1px solid #ddd;
+  }
+
+  h3 {
+    font-size: 1.225em;
   }
 
   h1,
@@ -167,7 +177,7 @@ body {
   }
 
   .small {
-    font-size: $type-size-6;
+    font-size: $type-size-7;
   }
 
   /* blockquote citations */
