@@ -106,10 +106,13 @@ body {
     padding-bottom: 0.5em;
     font-size: 1.45em;
     // border-bottom: 1px solid #ddd;
+    i {
+      display: none;
+    }
   }
 
   h3 {
-    font-size: 1.225em;
+    font-size: 1em;
   }
 
   ul {
