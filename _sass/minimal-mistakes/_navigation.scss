@@ -530,7 +530,7 @@
 
   // Scrollspy marks toc items as .active when they are in focus
   .active a {
-    background-color: #eee !important;
+    background-color: #f0f0f0 !important;
     color: #3d4144;
   }
 }
@@ -545,6 +545,10 @@
 
   @include breakpoint($large) {
     font-size: $type-size-7;
+  }
+
+  ul {
+    padding-inline-start: 0 !important;
   }
 
   a {
